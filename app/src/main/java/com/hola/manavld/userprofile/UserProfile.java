@@ -1,14 +1,14 @@
 package com.hola.manavld.userprofile;
 
 public class UserProfile {
-    private String name, nickname, following, followers, aboutme;
+    private String name, handle, following, followers, about;
 
     public String getName() {
         return name;
     }
 
     public String getNickname() {
-        return nickname;
+        return handle;
     }
 
     public String getFollowers() {
@@ -20,6 +20,6 @@ public class UserProfile {
     }
 
     public String getAboutme() {
-        return aboutme;
+        return about;
     }
 }
